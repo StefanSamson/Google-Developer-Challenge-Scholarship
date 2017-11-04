@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eddf8643-51d4-43d1-9663-e67e905e9cf1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/S02.03-Exercise-Polish/app/src/main/java/com/example/android/sunshine/MainActivity.java" afterPath="$PROJECT_DIR$/S02.03-Exercise-Polish/app/src/main/java/com/example/android/sunshine/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/S02.03-Exercise-Polish/app/src/main/res/layout/activity_forecast.xml" afterPath="$PROJECT_DIR$/S02.03-Exercise-Polish/app/src/main/res/layout/activity_forecast.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/S02.03-Exercise-Polish/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/S02.03-Exercise-Polish/app/src/main/res/values/strings.xml" />
-    </list>
+    <list default="true" id="eddf8643-51d4-43d1-9663-e67e905e9cf1" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
