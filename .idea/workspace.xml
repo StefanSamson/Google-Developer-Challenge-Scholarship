@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eddf8643-51d4-43d1-9663-e67e905e9cf1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/S01.01-Exercise-CreateLayout/app/build.gradle" afterPath="$PROJECT_DIR$/S01.01-Exercise-CreateLayout/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/S01.01-Exercise-CreateLayout/.gitignore" afterPath="$PROJECT_DIR$/S01.01-Exercise-CreateLayout/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/S01.01-Exercise-CreateLayout/app/src/main/res/layout/activity_forecast.xml" afterPath="$PROJECT_DIR$/S01.01-Exercise-CreateLayout/app/src/main/res/layout/activity_forecast.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
