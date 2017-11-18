@@ -1,5 +1,6 @@
 package com.example.android.sunshine;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
@@ -18,7 +19,10 @@ public class DetailActivity extends AppCompatActivity {
         mWeatherData = (TextView) findViewById(R.id.activity_detail_tv_weather_data);
 
         // TODO (2) Display the weather forecast that was passed from MainActivity
-        String weatherData = getIntent().getStringExtra("WEATHER_DATA");
-        mWeatherData.setText(weatherData);
+        Intent intent = getIntent();
+        if (intent.hasExtra("WEATHER_DATA")) {
+            String weatherData = intent.getStringExtra("WEATHER_DATA");
+            mWeatherData.setText(weatherData);
+        }
     }
 }
