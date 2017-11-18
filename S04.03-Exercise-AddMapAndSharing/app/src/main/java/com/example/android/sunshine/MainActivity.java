@@ -219,10 +219,35 @@ public class MainActivity extends AppCompatActivity implements ForecastAdapterOn
             mForecastAdapter.setWeatherData(null);
             loadWeatherData();
             return true;
+        } else if (id == R.id.action_open_map) {
+            // TODO (2) Launch the map when the map menu item is clicked
+
+            Uri.Builder builder = new Uri.Builder();
+            builder.scheme("geo")
+                    .path("0,0");
+            Uri addressUri = builder.build();
+
+            showMap(addressUri);
         }
 
-        // TODO (2) Launch the map when the map menu item is clicked
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void showMap(Uri geoLocation) {
+        /*
+         * Again, we create an Intent with the action, ACTION_VIEW because we want to VIEW the
+         * contents of this Uri.
+         */
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+
+        /*
+         * Using setData to set the Uri of this Intent has the exact same affect as passing it in
+         * the Intent's constructor. This is simply an alternate way of doing this.
+         */
+        intent.setData(geoLocation);
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        }
     }
 }
